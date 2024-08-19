@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "hardhat": "^2.4.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/edr-darwin-x64": "^0.3.3",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.11.1"
+  }
+}
